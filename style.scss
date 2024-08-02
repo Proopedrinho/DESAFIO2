@@ -1,0 +1,32 @@
+// para colocar a cor na pagina, selecionar body dentro do { background-color:(aqui a cor)
+body{
+    background-color: rgb(207, 207, 207);
+    text-align: center;
+    
+}
+
+img{
+    width: 200px; 
+    border-radius: 50px;
+}
+
+h1{ 
+    color: rgb(3, 15, 248);
+}
+
+h3{
+    color: rgb(3, 15, 248) ;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font: message-box;    
+}
+
+summary{ 
+    color:black
+}
+
+div img{
+    width: 30px;
+}
