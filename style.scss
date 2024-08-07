@@ -1,18 +1,25 @@
-// para colocar a cor na pagina, selecionar body dentro do { background-color:(aqui a cor)
 body{
+    padding: 50px;
     background-color: rgb(207, 207, 207);
-    text-align: center;
+    
     
 }
 
 img{
-    width: 200px; 
-    border-radius: 50px;
+    padding: 10px;
+    width: 237px;
+    height: 229px;
+    top: 229px;
+    left: 120px;
+    border-radius: 150px;       
 }
 
-
-
+h1{
+    color: rgb(3, 15, 248) ;
+   }
+   
 h3{
+    
     color: rgb(3, 15, 248) ;
 }
 
@@ -21,10 +28,24 @@ p{
     font: message-box;    
 }
 
-summary{ 
-    color:black
+*summary{ 
+    color:rgb(0, 0, 0);
 }
 
-div img{
-    width: 30px;
+footer  {
+    background-color: rgb(164, 164, 164);
+    color: white;
+    text-align: center;
+    padding: -10px ;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.rodape a {
+    color: #ffffff;
+    text-decoration: none;
+        
 }
